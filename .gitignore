@@ -109,16 +109,4 @@ fabric.properties
 .idea/uiDesigner.xml
 .idea/vcs.xml
 docker-compose.yaml
-java.projectmars.iml
-pom.xml
-resources/
-src/main/
-src/test/java/Feature/
-src/test/java/Hook/
-src/test/java/Runner/
-src/test/java/Steps/account/
-src/test/java/Steps/profile/ProfileStepDefs.java
-src/test/java/TestData/
-src/test/resources/
-target/
-testng.xml
+
