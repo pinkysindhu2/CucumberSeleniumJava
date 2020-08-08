@@ -33,7 +33,7 @@ public class Login
         //ExcelHelper.readData(2,"Password");
         email.sendKeys(emailId);
         password.sendKeys(pass);
-        CustomDriverWaits.waitForElementToClick(Driver, loginBtn, 15);
+        CustomDriverWaits.waitForElementToClickable(loginBtn, Driver, 15);
         CustomDriverWaits.waitForUrl("http://192.168.99.100:5000/Account/Profile", Driver, 10);
         return new Profile(Driver);
         //Assert.AreEqual("Log", "Login");
